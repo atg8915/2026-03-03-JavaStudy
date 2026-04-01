@@ -5,7 +5,7 @@ import java.util.Scanner;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
-
+//d
 //사용자 요청 => 기능 => 메소드
 public class GenieMusicSystem {
 	// 공개 => 공유
