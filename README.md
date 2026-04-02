@@ -1,68 +1,96 @@
 # 2026-03-03-JavaStudy
 
-## 📚 Java 학습 정리
+# 📚 Java 학습 기록
 
-### Chapter01. 자바 시작
+![Java](https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java)
+![IDE](https://img.shields.io/badge/IDE-Eclipse%20%7C%20IntelliJ-blue?style=for-the-badge)
+![Level](https://img.shields.io/badge/Level-Beginner_to_Intermediate-green?style=for-the-badge)
+
+---
+
+## 🚀 학습 내용
+
+### 🔹 Chapter01. 자바 시작
 - Java 개발 환경 및 실행 구조 이해 (JVM, JDK, JRE)
 - 기본 문법 및 출력문 (System.out.println)
 - 컴파일 및 실행 과정 학습
 - 클래스와 main 메소드 구조 이해
 
-### Chapter02. 변수와 데이터형
+---
+
+### 🔹 Chapter02. 변수와 데이터형
 - 기본 데이터형 (int, double, char, boolean 등)
 - 변수 선언 및 초기화 방법
 - 형변환 (자동 / 강제)
 - 상수(final) 개념 이해
 
-### Chapter03. 연산자
+---
+
+### 🔹 Chapter03. 연산자
 - 산술, 비교, 논리 연산자 사용법
 - 증감 연산자 및 대입 연산자
 - 삼항 연산자 활용
 - 연산자 우선순위 이해
 
-### Chapter04. 제어문
+---
+
+### 🔹 Chapter04. 제어문
 - 조건문 (if, if-else, switch)
 - 반복문 (for, while, do-while)
 - 중첩 반복문 및 흐름 제어
 - break, continue 활용
 
-### Chapter05. 데이터 관리
+---
+
+### 🔹 Chapter05. 데이터 관리 📦
 - 배열 개념 및 사용법
 - 1차원/다차원 배열 활용
 - 메소드 정의 및 호출
 - 문자열 처리 및 배열과의 결합
 
-### Chapter06. 객체지향 프로그래밍 (기초)
+---
+
+### 🔹 Chapter06. 객체지향 프로그래밍 (기초) 🧱
 - 클래스와 객체 개념 이해
 - 변수 종류 (지역, 인스턴스, static)
 - 생성자 및 메소드 구조
 - 접근지정자 및 캡슐화
 
-### Chapter07. 객체지향 프로그래밍 (심화)
+---
+
+### 🔹 Chapter07. 객체지향 프로그래밍 (심화) 🔥
 - 상속 개념 및 코드 재사용
 - 메소드 오버라이딩
 - 다형성 개념 및 활용
 - 유지보수 중심 설계 이해
 
-### Chapter08. 인터페이스 & 추상클래스
+---
+
+### 🔹 Chapter08. 인터페이스 & 추상클래스 ⚙️
 - 인터페이스 정의 및 구현
 - 추상 클래스 개념 및 사용
 - 다중 구현 구조 이해
 - 설계 중심 프로그래밍 기초
 
-### Chapter11. 예외처리
+---
+
+### 🔹 Chapter11. 예외처리 🚨
 - 예외의 개념 및 종류
 - try-catch-finally 구조
 - throws 및 사용자 정의 예외
 - 안정적인 프로그램 설계
 
-### Chapter12. 라이브러리
+---
+
+### 🔹 Chapter12. 라이브러리 📚
 - java.lang 주요 클래스 (String, Object 등)
 - Wrapper 클래스 및 유틸리티
 - 정규식 및 문자열 처리
 - 리플렉션 및 어노테이션 기초
 
-### Chapter13~15. 컬렉션 프레임워크
+---
+
+### 🔹 Chapter13~15. 컬렉션 프레임워크 🗂️
 - List 인터페이스 구조 이해
 - ArrayList, LinkedList 사용법
 - 데이터 저장 및 관리 방식
