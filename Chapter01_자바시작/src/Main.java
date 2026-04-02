@@ -4,7 +4,9 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 import java.util.Scanner;
 import java.util.Stack;
 import java.io.*;
@@ -44,34 +46,23 @@ public class Main {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
+		StringTokenizer st = new StringTokenizer(bf.readLine());
+		int N = Integer.parseInt(st.nextToken());
+		int K = Integer.parseInt(st.nextToken());
+		LinkedList<Integer> queue = new LinkedList<Integer>();
 		
-		while(true) {
-			String input = bf.readLine();
-			if(input.equals(".")) break;
-			boolean ok = true;
-			Stack<Character> stack = new Stack();
-			for(int i=0; i<input.length(); i++) {
-	            char c = input.charAt(i);
-	            
-	            if(c == '(' || c == '[') {
-	                stack.push(c);
-	            } else if(c == ')' || c == ']') {
-	                if(stack.isEmpty()) {
-	                    ok = false; break;
-	                } else if(c == ')' && stack.peek() == '(') {
-	                    stack.pop();
-	                } else if(c == ']' && stack.peek() == '[') {
-	                    stack.pop();
-	                } else {
-	                    ok = false; break;
-	                }
-	            }
-	        }
-			if(ok && stack.isEmpty())
-	            bw.write("yes\n");
-	        else
-	            bw.write("no\n");
-	    }
+		for(int i=1; i<=N; i++)
+		{
+			queue.add(i);
+		}
+		for(int i=1; i<=N*K; i+=K)
+		{
+			queue.poll();
+			int front = queue.poll();
+			queue.add(front);
+			bw.write(queue.poll()+" ");
+		}
+		
 		
 		
 		bw.flush();
