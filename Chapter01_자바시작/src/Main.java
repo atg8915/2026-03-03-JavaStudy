@@ -1,3 +1,4 @@
+import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -25,11 +26,35 @@ public class Main {
 			
 		
 		int N = Integer.parseInt(bf.readLine());
-		LinkedList<Integer> deque = new LinkedList<Integer>();	
+		ArrayDeque<int[]> deque = new ArrayDeque<>();
 		StringTokenizer st = new StringTokenizer(bf.readLine());
 		for(int i=0; i<N; i++)
 		{
-			deque.add(Integer.parseInt(st.nextToken()));
+			int val = Integer.parseInt(st.nextToken());
+			deque.addLast(new int[] {i,val});
+			
+		}
+		while(!deque.isEmpty())
+		{
+			int[] balloon = deque.pollFirst();
+			bw.write(balloon[0]+" ");
+			
+			if(deque.isEmpty())break;
+			
+			int num = balloon[1];
+			
+			if(num>0) {
+				for(int i=0; i<num-1; i++)
+				{
+					deque.addLast(deque.pollFirst());
+				}
+			}
+			else {
+				for(int i=0; i<Math.abs(num)-1; i++)
+				{
+					deque.addFirst(deque.pollLast());
+				}
+			}
 			
 		}
 		
