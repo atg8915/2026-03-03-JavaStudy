@@ -95,3 +95,21 @@
 - ArrayList, LinkedList 사용법
 - 데이터 저장 및 관리 방식
 - 컬렉션을 활용한 실전 데이터 처리
+
+---
+
+### 🔹 Chapter18. 입출력 (IO) 기초 📂
+- 람다식 (Lambda) 기본 구조 및 스트림(Stream) 활용 (filter, map, forEach, collect)
+- 메소드 참조 (::)를 통한 코드 간결화 (ex. System.out::println)
+- 함수형 프로그래밍 개념 이해 (입력값 기반 결과, 가독성 및 유지보수 향상)
+- Optional을 통한 Null 안전 처리 및 코드 안정성 확보
+- 스트림을 이용한 데이터 필터링, 변환, 정렬 등 데이터 처리 방식 학습
+
+---
+
+### 🔹 Chapter18. 입출력 (IO) 응용 ⚙️
+- Java IO 구조 이해 (Input/Output, 바이트 스트림 / 문자 스트림)
+- File, FileReader/Writer, BufferedReader/Writer를 활용한 파일 입출력 구현
+- 파일 데이터를 읽어 객체(List)로 변환하여 데이터 관리
+- StringTokenizer, split 등을 이용한 데이터 파싱 처리
+- File 클래스 기반 파일 생성, 삭제, 탐색 등 파일 제어 기능 활용
