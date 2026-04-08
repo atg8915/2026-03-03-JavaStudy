@@ -113,3 +113,23 @@
 - 파일 데이터를 읽어 객체(List)로 변환하여 데이터 관리
 - StringTokenizer, split 등을 이용한 데이터 파싱 처리
 - File 클래스 기반 파일 생성, 삭제, 탐색 등 파일 제어 기능 활용
+
+---
+
+### 🔹 Chapter18. 입출력 (Buffered) 📂
+- BufferedReader / BufferedWriter를 활용한 빠른 입출력 처리
+- FileInputStream / FileOutputStream, FileReader / FileWriter 구조 이해
+- ObjectInputStream / ObjectOutputStream을 이용한 객체 단위 저장 (직렬화/역직렬화)
+- 파일 읽기/쓰기 및 외부 데이터 처리 방식 학습
+- Scanner 대신 BufferedReader 사용 및 예외처리 기반 입력 처리
+
+---
+
+### 🔹 Chapter18. 입출력 (Stream) 🌊
+- IO(Input/Output) 개념 및 데이터 흐름 구조 이해
+- 표준 입출력 (System.in / System.out) 구조 학습
+- 입력(키보드, 파일, 네트워크) → 출력(화면, 파일) 데이터 흐름 이해
+- 프로그램과 외부 자원 간 데이터 교환 방식 학습
+- 스트림(Stream)을 통한 데이터 전달 구조 및 기본 개념 정리
+
+---
